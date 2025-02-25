@@ -7,7 +7,7 @@ stage('clone')
 {
 steps
 {
-git'
+git'https://github.com/Ram9014673/f1.git'
 }
 stage('build')
 {
@@ -18,5 +18,8 @@ sh 'javac Hello.java'
 steps
 {
 sh 'java Hello'
+}
+}
+}
 }
 }
